@@ -1,6 +1,8 @@
 # hubot-github-slack-pr-threads
 
-A [Hubot](http://hubot.github.com/) that keeps PRs (and updates like comments) in one Slack thread.
+A [Hubot](http://hubot.github.com/) script that keeps PRs (and updates like comments) in one Slack thread.
+
+<img src="http://i.imgur.com/fVwh6HP.png" alt="Screenshot" />
 
 ## Installation
 
