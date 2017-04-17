@@ -8,7 +8,7 @@
  *   None
  *
  * Configuration:
- *   None
+ *   HUBOT_GITHUB_SLACK_PR_THREADS_DEBUG - log webhook data to console (default: false)
  *
  * Commands:
  *   none
@@ -132,5 +132,7 @@ function handlePullRequest(data) {
         };
     }
 
-    console.log(data);
+    if (process.env.HUBOT_GITHUB_SLACK_PR_THREADS_DEBUG) {
+      console.log(`POST hubot/gh-pull-requests: /${data}`);
+    }
 }
