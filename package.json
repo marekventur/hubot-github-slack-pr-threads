@@ -1,6 +1,6 @@
 {
   "name": "hubot-github-slack-pr-threads",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hubot script that keeps PRs (and updates like comments) in one Slack thread",
   "main": "index.js",
   "scripts": {
