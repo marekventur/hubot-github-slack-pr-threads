@@ -34,7 +34,8 @@
     "ava": "^0.17.0",
     "eslint": "^3.14.1",
     "request": "^2.79.0",
-    "yargs": "^6.6.0"
+    "yargs": "^6.6.0",
+    "sinon": "^2.1.0"
   },
   "dependencies": {},
   "files": [
